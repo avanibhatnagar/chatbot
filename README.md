@@ -49,9 +49,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 Cosine Similarity (d1, d2) =  Dot product(d1, d2) / ||d1|| * ||d2||
 
+**Important libraries to import**
+- nltk
+- numpy as np
+- random
+- string
 
-
-
+**Corpus** - collection of text to be used
+The corpus used for this project can be found in the chatbot.txt file. You can change that to whatever you want.
 
 **References**
 [1] https://medium.com/analytics-vidhya/building-a-simple-chatbot-in-python-using-nltk-7c8c8215ac6e
