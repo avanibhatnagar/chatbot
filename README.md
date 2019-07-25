@@ -18,23 +18,23 @@ nltk.download()
 To import nltk and download the NLTK packages
 
 Issue with text data is that it's all text and ML needs some sort of numerical vector.
-Hence before we start working with this, we need to pre process the text to make it usable.
-**Basic pre processing:**
+Hence before we start working with this, we need to pre process the text to make it usable.\
+**Basic pre processing:**\
 1. converting to all uppercase or all lowercase to ensure uniformity so that all data is treated equally.
 2. convert normal text strings into a list of tokens
   2a. Sentence tokenizer to find list of sentences.
   2b. Word tokenizer to find list of words in strings.
 
-**After pre processing:**
+**After pre processing:**\
 Transform text to meaningful array of numbers so that it can be used in ML.
 
-**Bag Of Words**
+**Bag Of Words**\
 Describes occurrence of words within a document
 Example from [1]:
 If our dictionary contains the words {Learning, is, the, not, great}, and we want to vectorize the text “Learning is great”, we would have the following vector: (1, 1, 0, 0, 1).
 Problem: highly frequent words start to dominate the document but may not have informational content.
 
-**TF-IDF Approach**
+**TF-IDF Approach**\
 To rescale frequency of words by how often they appear in all documents so that scores for words like "the" are also penalized [1]. This scoring approach is called Term Frequency - Inverse Document Frequency.
 
 Here, Term Frequency: scoring of frequency of word in current document.
@@ -58,5 +58,5 @@ Cosine Similarity (d1, d2) =  Dot product(d1, d2) / ||d1|| * ||d2||
 **Corpus** - collection of text to be used
 The corpus used for this project can be found in the chatbot.txt file. You can change that to whatever you want.
 
-**References**
+## References
 [1] https://medium.com/analytics-vidhya/building-a-simple-chatbot-in-python-using-nltk-7c8c8215ac6e
