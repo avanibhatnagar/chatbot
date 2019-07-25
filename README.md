@@ -1,4 +1,4 @@
-# Simple Retrieval Based Chatbot\
+# Simple Retrieval Based Chatbot
 A simple self-learning bot. Implementation of a Retrieval based chatbot based on **Python's NLTK library** (Natural Language ToolKit).
 
 According to Medium[1]:
@@ -19,7 +19,7 @@ To import nltk and download the NLTK packages
 
 Issue with text data is that it's all text and ML needs some sort of numerical vector.
 Hence before we start working with this, we need to pre process the text to make it usable.\
-**Basic pre processing:**\
+**Basic pre processing:**
 1. converting to all uppercase or all lowercase to ensure uniformity so that all data is treated equally.
 2. convert normal text strings into a list of tokens
   2a. Sentence tokenizer to find list of sentences.
