@@ -1,4 +1,4 @@
-##Simple Retrieval Based Chatbot
+##Simple Retrieval Based Chatbot\
 A simple self-learning bot. Implementation of a Retrieval based chatbot based on **Python's NLTK library** (Natural Language ToolKit).
 
 According to Medium[1]:
